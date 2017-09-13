@@ -14,7 +14,7 @@ describe('objects', () => {
     expect(typeof playlist).to.equal('object')
     expect(Object.keys(playlist).length).to.be.greaterThan(0)
   })
-
+/*
   describe('updatePlaylist(playlist, artistName, songTitle)', () => {
     it('adds the `artistName: songTitle` key-value pair to `playlist`', () => {
       expect(updatePlaylist({}, 'Phil Ochs', "Here's to the State of Mississippi")).
@@ -28,4 +28,5 @@ describe('objects', () => {
         to.eql({})
     })
   })
+  */
 })
