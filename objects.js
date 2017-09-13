@@ -1,4 +1,4 @@
-var playlist = {};
+var playlist = new Object();
 playlist = {GreenDay: "Basket Case"};
 
 function updatePlaylist(playlist,artist,title){
