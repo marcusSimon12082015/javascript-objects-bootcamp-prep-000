@@ -1,4 +1,4 @@
-var playlist = {Green Day : 'Basket Case'};
+var playlist = {"Green Day" : 'Basket Case'};
 
 function updatePlaylist(playlist,artist,title){
     playlist.push({Foo Fighters:"Monkey Wrench"});
