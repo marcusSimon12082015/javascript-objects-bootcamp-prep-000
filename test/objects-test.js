@@ -21,12 +21,12 @@ describe('objects', () => {
         to.eql({ 'Phil Ochs': "Here's to the State of Mississippi" })
     })
   })
-/*
+
   describe('removeFromPlaylist(playlist, artistName)', () => {
     it('removes `artistName` from `playlist`', () => {
       expect(removeFromPlaylist({ Kanye: "Gold Digger" }, "Kanye")).
         to.eql({})
     })
   })
-  */
+
 })
